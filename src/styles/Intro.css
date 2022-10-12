@@ -1,0 +1,25 @@
+.intro {
+    padding-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 18px;
+    background-color: hsl(198, 60%, 50%);
+    border: none;
+    border-radius: 30px;
+    
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+}
