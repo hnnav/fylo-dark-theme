@@ -1,0 +1,19 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    font-size: 12px;
+}
+
+h1 {
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 30px;
+}

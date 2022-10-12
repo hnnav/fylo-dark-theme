@@ -1,0 +1,17 @@
+/* Fonts
+    font-family: 'Open Sans', sans-serif; 400 & 700
+    font-family: 'Raleway', sans-serif; 400 & 700
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
