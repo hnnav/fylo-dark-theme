@@ -5,6 +5,7 @@ import Feature from './components/Feature';
 import StayProductive from './components/StayProductive';
 import Testimonial from './components/Testimonial';
 import EmailSignUp from './components/EmailSignUp';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         profileImgUrl='images\profile-3.jpg'
         name='Iva Boyd'/>
       <EmailSignUp />
+      <Footer />
     </div>
   );
 }

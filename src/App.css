@@ -31,9 +31,9 @@ nav {
     gap: 20px;
 }
 
-nav h1 {
+nav img {
     margin-right: auto;
-    font-size: 25px;
+    width: 80px;
 }
 
 .intro img {
