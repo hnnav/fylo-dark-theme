@@ -3,17 +3,25 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 25px;
 }
 
-p {
+.intro img {
+    width: 100%;
+}
+
+.intro h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.intro p {
     font-size: 14px;
 }
 
-button {
-    margin-left: 35px;
-    margin-right: 35px;
-    padding: 18px;
+.intro button {
+    padding: 18px 80px;
     background-color: hsl(198, 60%, 50%);
     border: none;
     border-radius: 30px;

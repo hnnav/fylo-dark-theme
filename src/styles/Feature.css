@@ -7,16 +7,16 @@
     text-align: center;
 }
 
-h2 {
+.feature h2 {
     font-size: 17px;
     font-weight: 700;
 }
 
-p {
+.feature p {
     font-size: 15px;
 }
 
-img {
+.feature img {
     width: 25%;
     padding-bottom: 20px;
 }
