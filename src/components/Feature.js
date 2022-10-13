@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/Feature.css';
 
 function Feature(props){
     return(

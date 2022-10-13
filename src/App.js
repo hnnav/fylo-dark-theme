@@ -2,10 +2,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Feature from './components/Feature';
+import StayProductive from './components/StayProductive';
 
 function App() {
   return (
-    <div>
+    <div class="main-container">
       <Navbar />
       <Intro />
       <Feature 
@@ -28,6 +29,7 @@ function App() {
         header="Store any type of file"
         text="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
         file types to be securely stored and shared." />
+      <StayProductive />
     </div>
   );
 }

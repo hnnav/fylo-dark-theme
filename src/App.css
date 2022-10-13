@@ -3,17 +3,96 @@
     font-family: 'Raleway', sans-serif; 400 & 700
 */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+body {
+    background-color: hsl(218, 28%, 13%);
+    margin: 30px;
+
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: white;
     line-height: 1.6;
 }
 
-body {
-    margin: 30px;
-    background-color: hsl(218, 28%, 13%);
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav h1 {
+    margin-right: auto;
+    font-size: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+.intro h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.intro button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 18px 80px;
+    background-color: hsl(198, 60%, 50%);
+    border: none;
+    border-radius: 30px;
+    
     color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.feature {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.feature img {
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.stay-productive {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: left;
+}
+
+.stay-productive h2 {
+    margin-top: 40px;
+}
+
+a {
+    color: hsl(176, 68%, 64%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 7px;
+}
+
+.icon-arrow {
+    width: 15px;
+    margin-bottom: -4px;
+    padding-left: 2px;
 }
