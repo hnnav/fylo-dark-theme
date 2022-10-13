@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Feature from './components/Feature';
 import StayProductive from './components/StayProductive';
+import Testimonial from './components/Testimonial';
+import EmailSignUp from './components/EmailSignUp';
 
 function App() {
   return (
@@ -30,6 +32,17 @@ function App() {
         text="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
         file types to be securely stored and shared." />
       <StayProductive />
+      <img class='testimonial-quotes' src='images\bg-quotes.png' alt='img'/>
+      <Testimonial 
+        profileImgUrl='images\profile-1.jpg'
+        name='Satish Patel' />
+      <Testimonial 
+        profileImgUrl='images\profile-2.jpg'
+        name='Bruce McKenzie'/>
+      <Testimonial 
+        profileImgUrl='images\profile-3.jpg'
+        name='Iva Boyd'/>
+      <EmailSignUp />
     </div>
   );
 }
