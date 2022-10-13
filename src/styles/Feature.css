@@ -1,0 +1,22 @@
+.feature {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+}
+
+img {
+    width: 25%;
+    padding-bottom: 20px;
+}
