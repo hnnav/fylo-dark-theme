@@ -4,7 +4,14 @@
 */
 
 body {
-    background-color: hsl(218, 28%, 13%);
+    background-image: 
+        url('../public/images/bg-curvy-mobile.svg'), 
+        linear-gradient(
+            hsl(217, 28%, 15%) 9.5%, 
+            hsl(218, 28%, 13%) 9.5% 81%, 
+            hsl(216, 53%, 9%) 81%);
+    background-repeat: no-repeat;
+    background-position: 0% 7%, 0 0, 0 0;
     margin: 30px;
 
     font-family: 'Open Sans', sans-serif;
@@ -71,7 +78,7 @@ nav img {
 }
 
 h2 {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -141,9 +148,10 @@ a {
 }
 
 .email-signup {
+    margin-top: 130px;
     background-color: hsl(217, 28%, 15%);
     border-radius: 6px;
-    padding: 40px 20px;
+    padding: 30px 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -167,4 +175,51 @@ a {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 15px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer p {
+    margin-top: 0;
+}
+
+.contacts {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contacts img {
+    margin-top: 5px;
+}
+
+.contacts-location, .contacts-phone, .contacts-email {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.social-media-icons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ion-icon {
+    font-size: 25px;
 }
