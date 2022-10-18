@@ -110,14 +110,15 @@ a {
     margin-left: 5px;
 }
 
-.testimonials {
+.testimonial {
+    margin-bottom: 20px;
     background-color: hsl(219, 30%, 18%);
     border-radius: 6px;
     padding: 20px;
     text-align: left;
 }
 
-.testimonials p {
+.testimonial p {
     font-size: 12px;
 }
 
@@ -126,18 +127,18 @@ a {
     margin-left: 10px;
 }
 
-.testimonials img {
+.testimonial img {
     border-radius: 100%;
     width: 30px;
     height: 30px;
 }
 
-.testimonials h4 {
+.testimonial h4 {
     font-size: 12px;
     margin-bottom: 0;
 }
 
-.testimonials p2 {
+.testimonial p2 {
     display: block;
     font-size: 10px;
 }
@@ -237,29 +238,146 @@ ion-icon {
         width: 180px;
     }
 
-    .intro img {
+    .intro {
+        width: 70%;
+        align-self: center;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 15%;
+    }
+    
+   .feature {
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .stay-productive {
+        display: flex;
+        gap: 30px;
+    }
+
+    .stay-productive-img {
+        width: 45%;
+    }
+
+    .stay-productive h2 {
+        font-size: 44px;
+    }
+
+    .stay-productive-text {
+        margin-left: 20px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    .testimonials {
+        display: flex;
+        gap: 3%;
+    }
+
+    .testimonial {
+        padding-top: 30px;
+    }
+
+    .testimonial p {
+        font-size: 15px;
+    }
+
+    .testimonial-quotes {
+        width: 60px;
+    }
+
+    .email-signup {
+        margin-top: 200px;
+        width: 70%;
+        align-self: center;
+        padding: 30px 100px;
+        border-radius: 12px;
+    }
+
+    .email-signup h2 {
+        font-size: 40px;
+    }
+    
+    form {
+        display: flex;
+        align-items: flex-end;
+        gap: 35px;
+        padding-bottom: 30px;
+    }
+
+    .email-signup input {
         width: 70%;
     }
     
-    .intro h1 {
-        font-size: 40px;
-        font-weight: 700;
+    .email-signup button {
+        width: 30%;
+    }
+
+    .footer {
+        margin-top: 100px;
+        flex-wrap: wrap;
+        height: 300px;
     }
     
-    .intro button {
-        margin-top: 20px;
+    .footer-logo {
+        width: 200px;
+    }
+
+    .contacts {
+        width: 40%;
+    }
+
+    .footer p {
+    }
+    
+    /*
+    .contacts {
+        margin-top: 30px;
         margin-bottom: 50px;
-        padding: 18px 80px;
-        background-color: hsla(184, 46%, 51%, 0.993);
-        border: none;
-        border-radius: 30px;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-        
-        color: white;
-        font-family: 'Open Sans';
-        font-weight: 700;
-        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
     
+    .contacts img {
+        margin-top: 5px;
+    }
+    
+    .contacts-location, .contacts-phone, .contacts-email {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .social-media-icons {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    ion-icon {
+        font-size: 25px;
+    } */
 
 }
