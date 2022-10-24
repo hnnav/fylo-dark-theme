@@ -18,7 +18,7 @@ function EmailSignUp() {
                 <input name="email" type='text' placeholder='email@example.com'/>
                 <button type="submit">Get Started For Free</button>
             </form>
-            {email ? null : <p className="email-error">Please enter a valid email address</p>}
+            {email ? <p className="email-error"> </p> : <p className="email-error">Please enter a valid email address</p>}
         </div>
     );
     

@@ -193,6 +193,7 @@ a:hover{
 }
 
 .email-error {
+    height: 20px;
     color: hsl(0, 100%, 63%);
 }
 
