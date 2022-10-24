@@ -18,13 +18,17 @@ function Footer(){
                     <p>example@fylo.com</p>
                 </div>
             </div>
-            <p>About Us</p>
-            <p>Jobs</p>
-            <p>Press</p>
-            <p>Blog</p>
-            <p>Contact Us</p>
-            <p>Terms</p>
-            <p>Privacy</p>
+            <div class="footer-links-1">
+                <p>About Us</p>
+                <p>Jobs</p>
+                <p>Press</p>
+                <p>Blog</p>
+            </div>
+            <div class="footer-links-2">
+                <p>Contact Us</p>
+                <p>Terms</p>
+                <p>Privacy</p>
+            </div>
             <div class="social-media-icons">
                 <ion-icon name="logo-facebook"></ion-icon>
                 <ion-icon name="logo-twitter"></ion-icon>

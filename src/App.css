@@ -225,6 +225,17 @@ ion-icon {
 
 @media only screen and (min-width: 900px) {
 
+    body {
+        background-image: 
+        url('../public/images/bg-curvy-mobile.svg'), 
+        linear-gradient(
+            hsl(217, 28%, 15%) 37%, 
+            hsl(218, 28%, 13%) 37% 81%, 
+            hsl(216, 53%, 9%) 81%);
+        background-position: 0% 28%;
+        background-size: 100%;
+    }
+
     .main-container {
         margin: 100px 80px;
     }
@@ -247,23 +258,38 @@ ion-icon {
         font-size: 40px;
     }
 
-    p {
+    .intro p {
+        margin: 0 80px 20px;
         font-size: 20px;
     }
 
     .features {
+        margin-left: 150px;
         display: flex;
         flex-wrap: wrap;
         align-items: flex-end;
         gap: 15%;
     }
+
+    .feature {
+         width: 35%;
+    }
     
-   .feature {
-        width: 40%;
+    .features img {
+        width: 80px;
     }
 
+    .features h2 {
+        margin-bottom: 0;
+    }
+
+    .features p {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    
     h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .stay-productive {
@@ -276,7 +302,9 @@ ion-icon {
     }
 
     .stay-productive h2 {
-        font-size: 44px;
+        margin-top: 60px;
+        font-size: 40px;
+        width: 80%;
     }
 
     .stay-productive-text {
@@ -284,7 +312,7 @@ ion-icon {
     }
 
     a {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .testimonials {
@@ -333,51 +361,29 @@ ion-icon {
 
     .footer {
         margin-top: 100px;
+        height: 400px;
         flex-wrap: wrap;
-        height: 300px;
-    }
-    
-    .footer-logo {
-        width: 200px;
-    }
-
-    .contacts {
-        width: 40%;
-    }
-
-    .footer p {
-    }
-    
-    /*
-    .contacts {
-        margin-top: 30px;
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: column;
         align-items: flex-start;
         gap: 10px;
     }
     
-    .contacts img {
-        margin-top: 5px;
+    .footer-logo {
+        width: 200px;
+        margin-bottom: 20px;
     }
-    
-    .contacts-location, .contacts-phone, .contacts-email {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        gap: 20px;
-    }
-    
-    .social-media-icons {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-    
-    ion-icon {
-        font-size: 25px;
-    } */
 
+    .contacts {
+        width: 40%;
+        margin-bottom: 0;
+    }
+
+    .footer-links-1, .footer-links-2 {
+        width: 10%;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    .social-media-icons {
+        margin-top: 100px;
+    }
 }
