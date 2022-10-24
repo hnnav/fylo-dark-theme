@@ -193,9 +193,7 @@ a:hover{
 }
 
 .email-error {
-    margin-top: -10px;
     color: hsl(0, 100%, 63%);
-    text-align: left;
 }
 
 .email-signup button:hover {
@@ -398,6 +396,11 @@ ion-icon {
     
     .email-signup button {
         width: 30%;
+    }
+
+    .email-error {
+        margin-top: -10px;
+        text-align: left;
     }
 
     .footer {
