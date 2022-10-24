@@ -4,9 +4,9 @@ function Navbar(){
     return(
         <nav>
             <img src='images/logo.svg' alt='logo' />
-            <h3>Features</h3>
-            <h3>Team</h3>
-            <h3>Sign In</h3>
+            <p>Features</p>
+            <p>Team</p>
+            <p>Sign In</p>
         </nav>
     );
 }

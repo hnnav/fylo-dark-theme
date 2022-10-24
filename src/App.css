@@ -27,7 +27,7 @@ nav {
     margin-bottom: 20px;
     height: 40px;
     font-size: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;     
     display: flex;
     align-items: center;
     gap: 5%;
@@ -36,6 +36,12 @@ nav {
 nav img {
     margin-right: auto;
     width: 80px;
+}
+
+nav p:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .intro img {
@@ -60,6 +66,11 @@ nav img {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 15px;
+}
+
+.intro button:hover {
+    background-color: hsla(186, 54%, 74%, 0.993);
+    cursor: pointer;
 }
 
 .feature {
@@ -97,6 +108,13 @@ a {
     font-size: 12px;
     border-bottom: 1px solid hsl(176, 68%, 64%);
     padding-bottom: 7px;
+}
+
+a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    filter: grayscale(100%) brightness(130%);
 }
 
 .icon-arrow {
@@ -138,7 +156,7 @@ a {
     margin-bottom: 0;
 }
 
-.testimonial p2 {
+.testimonial small {
     display: block;
     font-size: 10px;
 }
@@ -172,6 +190,17 @@ a {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 15px;
+}
+
+.email-error {
+    margin-top: -10px;
+    color: hsl(0, 100%, 63%);
+    text-align: left;
+}
+
+.email-signup button:hover {
+    background-color: hsla(186, 54%, 74%, 0.993);
+    cursor: pointer;
 }
 
 .footer {
@@ -210,11 +239,19 @@ a {
     gap: 20px;
 }
 
+.footer-links-1 p:hover, .footer-links-2 p:hover {
+    font-weight: 700;
+}
+
 .social-media-icons {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+ion-icon:hover {
+    fill: hsl(176, 68%, 64%);
 }
 
 ion-icon {
@@ -241,7 +278,7 @@ ion-icon {
     }
 
     nav {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 100px;
     }
 
@@ -313,6 +350,10 @@ ion-icon {
 
     a {
         font-size: 18px;
+    }
+
+    .icon-arrow {
+        width: 20px;
     }
 
     .testimonials {

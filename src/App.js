@@ -9,10 +9,10 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div class="main-container">
+    <div className="main-container">
       <Navbar />
       <Intro />
-      <div class="features">
+      <div className="features">
         <Feature 
           imgUrl='images/icon-access-anywhere.svg'
           header="Access your files, anywhere"
@@ -35,8 +35,8 @@ function App() {
           file types to be securely stored and shared." />
       </div>
       <StayProductive />
-      <img class='testimonial-quotes' src='images\bg-quotes.png' alt='img'/>
-      <div class="testimonials">
+      <img className='testimonial-quotes' src='images\bg-quotes.png' alt='img'/>
+      <div className="testimonials">
         <Testimonial 
           profileImgUrl='images\profile-1.jpg'
           name='Satish Patel' />
